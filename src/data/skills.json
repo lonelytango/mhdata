@@ -1,0 +1,356 @@
+[
+  {
+    "name": "KO术",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "晕厥威力增加"
+  },
+  {
+    "name": "SP技能威力提升",
+    "max-level": 5,
+    "type": "SP技能",
+    "description": "增加SP技能攻击"
+  },
+  {
+    "name": "SP计量表加速",
+    "max-level": 5,
+    "type": "SP技能",
+    "description": "增加SP计量表速度"
+  },
+  {
+    "name": "SP计量表加速【完美回避】",
+    "max-level": 5,
+    "type": "SP技能",
+    "description": "增加完美回避时SP计量表速度"
+  },
+  {
+    "name": "不屈",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "体力降为0后, 复活后攻击力提升"
+  },
+  {
+    "name": "体力增强",
+    "max-level": 5,
+    "type": "防御",
+    "description": "增加体力"
+  },
+  {
+    "name": "冰属性攻击强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化冰属性攻击力"
+  },
+  {
+    "name": "冰耐性",
+    "max-level": 5,
+    "type": "属性防御",
+    "description": "强化冰属性防御力"
+  },
+  {
+    "name": "后座力减轻",
+    "max-level": 3,
+    "type": "弩枪攻击",
+    "description": "减轻弩枪后座力"
+  },
+  {
+    "name": "回避距离UP",
+    "max-level": 5,
+    "type": "回避",
+    "description": "延长回避距离"
+  },
+  {
+    "name": "团结力",
+    "max-level": 1,
+    "type": "攻击",
+    "description": "伙伴叠加攻击力"
+  },
+  {
+    "name": "奇袭",
+    "max-level": 5,
+    "type": "会心",
+    "description": "背后攻击伤害增加"
+  },
+  {
+    "name": "完美回避强化",
+    "max-level": 5,
+    "type": "回避",
+    "description": "延长完美回避输入容许时间"
+  },
+  {
+    "name": "弱点特效",
+    "max-level": 5,
+    "type": "会心",
+    "description": "攻击弱点时提高会心率"
+  },
+  {
+    "name": "怨恨",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "受到伤害时攻击力上升15秒"
+  },
+  {
+    "name": "攻击",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "增强攻击力"
+  },
+  {
+    "name": "攻击守势",
+    "max-level": 5,
+    "type": "防御",
+    "description": "抓住防御时机后, 攻击力10秒内提升"
+  },
+  {
+    "name": "新年快乐【2024】",
+    "max-level": 1,
+    "type": "其他",
+    "description": "跟其他玩家说新年快乐"
+  },
+  {
+    "name": "无伤",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "体力全满时增加攻击力"
+  },
+  {
+    "name": "毅力",
+    "max-level": 5,
+    "type": "防御",
+    "description": "体力计受到超过的伤害也不会死"
+  },
+  {
+    "name": "毒属性强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化毒属性攻击力"
+  },
+  {
+    "name": "毒耐性",
+    "max-level": 5,
+    "type": "状态防御",
+    "description": "强化毒属性防御力"
+  },
+  {
+    "name": "水属性攻击强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化水属性攻击力"
+  },
+  {
+    "name": "水耐性",
+    "max-level": 5,
+    "type": "属性防御",
+    "description": "强化水属性防御力"
+  },
+  {
+    "name": "火场怪力",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "体力降至29%以下提高攻击力"
+  },
+  {
+    "name": "火属性攻击强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化火属性攻击力"
+  },
+  {
+    "name": "火耐性",
+    "max-level": 5,
+    "type": "属性防御",
+    "description": "强化火属性防御力"
+  },
+  {
+    "name": "看破",
+    "max-level": 5,
+    "type": "会心",
+    "description": "增加会心率"
+  },
+  {
+    "name": "睡眠攻击强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化睡眠属性攻击力"
+  },
+  {
+    "name": "睡眠耐性",
+    "max-level": 5,
+    "type": "状态防御",
+    "description": "强化睡眠属性防御力"
+  },
+  {
+    "name": "破坏王",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "可破坏部位累积伤害"
+  },
+  {
+    "name": "精灵加护",
+    "max-level": 5,
+    "type": "防御",
+    "description": "有高几率减少50%伤害"
+  },
+  {
+    "name": "耐震",
+    "max-level": 3,
+    "type": "状态防御",
+    "description": "减轻魔物震动（大/小）影响"
+  },
+  {
+    "name": "耳塞",
+    "max-level": 5,
+    "type": "状态防御",
+    "description": "减轻魔物咆哮（大/小）影响"
+  },
+  {
+    "name": "背水防御",
+    "max-level": 5,
+    "type": "防御",
+    "description": "体力少于29%以下, 增加防御力"
+  },
+  {
+    "name": "装填速度",
+    "max-level": 3,
+    "type": "弩枪攻击",
+    "description": "降低弩枪装填时间"
+  },
+  {
+    "name": "超会心",
+    "max-level": 5,
+    "type": "会心",
+    "description": "会心攻击伤害倍率增加"
+  },
+  {
+    "name": "愈战愈勇",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "狩猎时经过时间，提升攻击力与防御力"
+  },
+  {
+    "name": "躯干强化",
+    "max-level": 3,
+    "type": "防御",
+    "description": "减轻伤害时后仰"
+  },
+  {
+    "name": "轻巧",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "增加空中攻击伤害"
+  },
+  {
+    "name": "连击",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "短时间连续击中, 攻击力提升4秒"
+  },
+  {
+    "name": "锁定",
+    "max-level": 1,
+    "type": "攻击",
+    "description": "显示锁定按钮"
+  },
+  {
+    "name": "防御",
+    "max-level": 5,
+    "type": "防御",
+    "description": "增加防御力"
+  },
+  {
+    "name": "防御性能",
+    "max-level": 5,
+    "type": "防御",
+    "description": "防御时减轻伤害与后仰"
+  },
+  {
+    "name": "集中",
+    "max-level": 5,
+    "type": "会心",
+    "description": "蓄力时间缩减, 增加太刀计量表上升率"
+  },
+  {
+    "name": "雷属性攻击强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化雷属性攻击力"
+  },
+  {
+    "name": "雷耐性",
+    "max-level": 5,
+    "type": "属性防御",
+    "description": "强化雷属性防御力"
+  },
+  {
+    "name": "风压耐性",
+    "max-level": 5,
+    "type": "状态防御",
+    "description": "减轻或使风压（大/小）无效"
+  },
+  {
+    "name": "麻痹属性强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化麻痹属性攻击力"
+  },
+  {
+    "name": "麻痹耐性",
+    "max-level": 5,
+    "type": "状态防御",
+    "description": "强化麻痹属性防御力"
+  },
+  {
+    "name": "龙属性攻击强化",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "强化龙属性攻击力"
+  },
+  {
+    "name": "强化持续",
+    "max-level": 5,
+    "type": "状态攻击",
+    "description": "延长双剑, 太刀, 充能斧的强化状态持续时间"
+  },
+  {
+    "name": "奇袭【状态异常】",
+    "max-level": 5,
+    "type": "状态攻击",
+    "description": "从魔物背后攻击, 异常状态触发几率上升"
+  },
+  {
+    "name": "行云流水",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "收起武器和变换武器形态速度上升"
+  },
+  {
+    "name": "裂伤耐性",
+    "max-level": 5,
+    "type": "状态防御",
+    "description": "有一定几率不会陷入裂伤状态"
+  },
+  {
+    "name": "力量解放",
+    "max-level": 5,
+    "type": "会心",
+    "description": "特定条件后, 会心率和SP增加量提升"
+  },
+  {
+    "name": "炮术",
+    "max-level": 5,
+    "type": "攻击",
+    "description": "铳枪炮击, 龙击炮, 充能斧瓶攻击, 撤甲榴弹伤害增加, 铳枪炮弹和充能斧头瓶增加"
+  },
+  {
+    "name": "SP计量表保险",
+    "max-level": 5,
+    "type": "SP技能",
+    "description": "体力降为0时SP计量表大幅减轻减少量, 高级时可增加"
+  },
+  {
+    "name": "钢龙的冻风",
+    "max-level": 5,
+    "type": "属性攻击",
+    "description": "降低风压, 增加冰属性攻击百分比"
+  }
+]

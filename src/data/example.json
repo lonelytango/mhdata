@@ -1,0 +1,75 @@
+{
+  "skillgroup": {
+    "name": "",
+    "max-level": 5,
+    "type": "",
+    "description": ""
+  },
+  "armor": {
+    "suite": "",
+    "items": [
+      {
+        "name": "头盔",
+        "part": "head",
+        "skills": [
+          { "name": "", "level": 1 },
+          { "name": "", "level": 1 }
+        ]
+      },
+      {
+        "name": "铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "", "level": 1 },
+          { "name": "", "level": 1 }
+        ]
+      },
+      {
+        "name": "腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "", "level": 1 },
+          { "name": "", "level": 1 }
+        ]
+      },
+      {
+        "name": "腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "", "level": 1 },
+          { "name": "", "level": 1 }
+        ]
+      },
+      {
+        "name": "护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "", "level": 1 },
+          { "name": "", "level": 1 }
+        ]
+      }
+    ],
+    "weapon": {
+      "items": [""],
+      "skill": ""
+    }
+  },
+  "weapon": {
+    "name": "",
+    "skill": [
+      {
+        "name": "",
+        "level": 1
+      }
+    ],
+    "type": "",
+    "suite": ""
+  },
+  "weapon_1": {
+    "suite": "",
+    "items": [""],
+    "skill": "",
+    "level": 1,
+    "element": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "detail": [
+    { "weapon": "单手剑", "skill": "轻巧", "level": 2 },
+    { "weapon": "双剑", "skill": "连击", "level": 2 },
+    { "weapon": "大剑", "skill": "集中", "level": 1 },
+    { "weapon": "太刀", "skill": "行云流水", "level": 1 },
+    { "weapon": "大锤", "skill": "KO术", "level": 1 },
+    { "weapon": "长枪", "skill": "攻击守势", "level": 2 },
+    { "weapon": "充能斧", "skill": "力量解放", "level": 1 },
+    { "weapon": "轻弩枪", "skill": "愈战愈勇", "level": 2 },
+    { "weapon": "弓", "skill": "无伤", "level": 2 }
+  ]
+}
