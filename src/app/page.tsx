@@ -1,6 +1,7 @@
 'use client';
 
 import classNames from 'classnames';
+import { nanoid } from 'nanoid';
 import {
 	type Armor,
 	bodyName,
@@ -10,7 +11,6 @@ import {
 	type WeaponSuite,
 	type Skill,
 } from '../utils/mhnow_utils';
-
 import { useState } from 'react';
 
 type GearData = {
@@ -28,7 +28,7 @@ const initData: GearData = {
 const armorSuite = getArmorSuite();
 const weaponSuite = getWeaponSuite();
 
-export default function Home() {
+const MHCombo = () => {
 	const [data, setData] = useState<GearData>(initData);
 
 	const armorHandler = (item: Armor) => {
@@ -72,7 +72,7 @@ export default function Home() {
 			});
 		});
 
-		setData({ gear: gear, allSkills: skillSet });
+		setData({ gear: gear, weapon, allSkills: skillSet });
 	};
 
 	const weaponHandler = (
@@ -130,10 +130,11 @@ export default function Home() {
 			<table>
 				<tbody>
 					{armorSuite.map((suite) => (
-						<tr>
+						<tr key={nanoid()}>
 							<td>{suite.suite}</td>
 							{suite.items.map((item) => (
 								<td
+									key={nanoid()}
 									className={classNames(
 										'w-12 h-12 border text-center cursor-pointer',
 										{
@@ -157,11 +158,12 @@ export default function Home() {
 			<table>
 				<tbody>
 					{weaponSuite.map((suite: WeaponSuite) => (
-						<tr>
+						<tr key={nanoid()}>
 							<td>{suite.suite}</td>
 							{suite.weapons.map((item) => {
 								return (
 									<td
+										key={nanoid()}
 										className={classNames(
 											'w-12 h-12 border text-center cursor-pointer',
 											{
@@ -194,7 +196,7 @@ export default function Home() {
 	const { gear, weapon, allSkills } = data;
 
 	return (
-		<main className='flex flex-row gap-5 h-svh text-xs'>
+		<main className='flex flex-row gap-5 h-svh text-xs p-4'>
 			<div className='overflow-y-auto'>
 				{armorTable()}
 				{weaponTable()}
@@ -223,7 +225,7 @@ export default function Home() {
 				<div className='overflow-y-auto h-64'>
 					{allSkills.map((skill) => {
 						return (
-							<div className='flex flex-row gap-5'>
+							<div key={nanoid()} className='flex flex-row gap-5'>
 								{skill.name} {skill.level}
 							</div>
 						);
@@ -232,4 +234,6 @@ export default function Home() {
 			</div>
 		</main>
 	);
-}
+};
+
+export default MHCombo;

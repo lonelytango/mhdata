@@ -1,0 +1,12 @@
+{
+	"menu": [
+		{
+			"title": "MH Combo",
+			"path": "/"
+		},
+		{
+			"title": "MH Data",
+			"path": "/mh_data"
+		}
+	]
+}
