@@ -10,7 +10,6 @@ import {
 	getSkillGroup,
 	search,
 } from '../../utils/mhnow_utils';
-import MHLayout from '../../layout';
 
 const MHGearList = ({
 	skill,

@@ -58,10 +58,8 @@ const MHCombo = () => {
 
 		const skillMap = new Map<string, number>();
 		for (const skill of rawSkills) {
-			if (!skillMap.has(skill.name)) {
-				skillMap.set(skill.name, 0);
-			}
-			skillMap.set(skill.name, skill.level + 1);
+			const currentLevel = skillMap.get(skill.name) ?? 0;
+			skillMap.set(skill.name, currentLevel + skill.level);
 		}
 
 		const skillSet: Skill[] = [];
@@ -111,7 +109,8 @@ const MHCombo = () => {
 			if (!skillMap.has(skill.name)) {
 				skillMap.set(skill.name, 0);
 			}
-			skillMap.set(skill.name, skill.level + 1);
+			const currentLevel = skillMap.get(skill.name) ?? 0;
+			skillMap.set(skill.name, currentLevel + skill.level);
 		}
 
 		const skillSet: Skill[] = [];
