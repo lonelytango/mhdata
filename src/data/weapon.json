@@ -1,6 +1,6 @@
 [
   {
-    "suite": "大凶豺龙",
+    "name": "大凶豺龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -20,7 +20,7 @@
     "skills": [{ "name": "体力增强", "level": 2 }]
   },
   {
-    "suite": "蛮颚龙",
+    "name": "蛮颚龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -40,7 +40,7 @@
     "skills": [{ "name": "愈战愈勇", "level": 1 }]
   },
   {
-    "suite": "火龙",
+    "name": "火龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -69,7 +69,7 @@
     "skills": [{ "name": "耳塞", "level": 1 }]
   },
   {
-    "suite": "苍火龙",
+    "name": "苍火龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -98,7 +98,7 @@
     "skills": [{ "name": "SP技能威力提升", "level": 1 }]
   },
   {
-    "suite": "水妖鸟",
+    "name": "水妖鸟",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -118,7 +118,7 @@
     "skills": [{ "name": "耳塞", "level": 1 }]
   },
   {
-    "suite": "泥鱼龙",
+    "name": "泥鱼龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -148,7 +148,7 @@
     "skills": [{ "name": "背水防御", "level": 1 }]
   },
   {
-    "suite": "雷狼龙",
+    "name": "雷狼龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -179,7 +179,7 @@
     "skills": [{ "name": "完美回避强化", "level": 1 }]
   },
   {
-    "suite": "飞雷龙",
+    "name": "飞雷龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -209,7 +209,7 @@
     "skills": [{ "name": "回避距离UP", "level": 1 }]
   },
   {
-    "suite": "眩鸟",
+    "name": "眩鸟",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 1 },
@@ -229,7 +229,7 @@
     "skills": [{ "name": "锁定", "level": 1 }]
   },
   {
-    "suite": "风漂龙",
+    "name": "风漂龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -259,7 +259,7 @@
     "skills": [{ "name": "精灵加护", "level": 1 }]
   },
   {
-    "suite": "冰牙龙",
+    "name": "冰牙龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -290,7 +290,7 @@
     "skills": [{ "name": "回避距离UP", "level": 1 }]
   },
   {
-    "suite": "春节",
+    "name": "春节",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 1 },
@@ -310,7 +310,7 @@
     "skills": [{ "name": "精灵加护", "level": 1 }]
   },
   {
-    "suite": "恐暴龙",
+    "name": "恐暴龙",
     "weapons": [
       { "name": "单手剑", "v": 1, "skill": "轻巧", "level": 2 },
       { "name": "双剑", "v": 1, "skill": "连击", "level": 2 },
@@ -341,7 +341,7 @@
     "skills": [{ "name": "愈战愈勇", "level": 2 }]
   },
   {
-    "suite": "毒妖鸟",
+    "name": "毒妖鸟",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -361,7 +361,7 @@
     "skills": [{ "name": "奇袭", "level": 1 }]
   },
   {
-    "suite": "雌火龙",
+    "name": "雌火龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -381,7 +381,7 @@
     "skills": [{ "name": "体力增强", "level": 2 }]
   },
   {
-    "suite": "樱火龙",
+    "name": "樱火龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -401,7 +401,7 @@
     "skills": [{ "name": "回避距离UP", "level": 1 }]
   },
   {
-    "suite": "大凶颚龙",
+    "name": "大凶颚龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -421,7 +421,7 @@
     "skills": [{ "name": "奇袭", "level": 1 }]
   },
   {
-    "suite": "骨锤龙",
+    "name": "骨锤龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -441,7 +441,7 @@
     "skills": [{ "name": "睡眠", "level": 1 }]
   },
   {
-    "suite": "铁",
+    "name": "铁",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -471,7 +471,7 @@
     "skills": [{ "name": "毒耐性", "level": 2 }]
   },
   {
-    "suite": "骨",
+    "name": "骨",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -502,7 +502,7 @@
     "skills": [{ "name": "SP计量表加速", "level": 1 }]
   },
   {
-    "suite": "土砂龙",
+    "name": "土砂龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -522,7 +522,7 @@
     "skills": [{ "name": "防御", "level": 2 }]
   },
   {
-    "suite": "浮空龙",
+    "name": "浮空龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -542,7 +542,7 @@
     "skills": [{ "name": "精灵加护", "level": 2 }]
   },
   {
-    "suite": "搔鸟",
+    "name": "搔鸟",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 0 },
@@ -562,7 +562,7 @@
     "skills": [{ "name": "不屈", "level": 1 }]
   },
   {
-    "suite": "角龙",
+    "name": "角龙",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 1 },
@@ -582,7 +582,7 @@
     "skills": [{ "name": "火场怪力", "level": 1 }]
   },
   {
-    "suite": "黑角龙",
+    "name": "黑角龙",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 1 },
@@ -602,7 +602,7 @@
     "skills": [{ "name": "破坏王", "level": 1 }]
   },
   {
-    "suite": "猛牛龙",
+    "name": "猛牛龙",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 1 },
@@ -622,7 +622,7 @@
     "skills": [{ "name": "躯干强化", "level": 2 }]
   },
   {
-    "suite": "惨爪龙",
+    "name": "惨爪龙",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 1 },
@@ -642,7 +642,7 @@
     "skills": [{ "name": "SP计量表加速", "level": 1 }]
   },
   {
-    "suite": "奇怪龙",
+    "name": "奇怪龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -662,7 +662,7 @@
     "skills": [{ "name": "无伤", "level": 1 }]
   },
   {
-    "suite": "岩龙",
+    "name": "岩龙",
     "weapons": [
       { "name": "单手剑", "v": 0 },
       { "name": "双剑", "v": 0 },
@@ -682,7 +682,7 @@
     "skills": [{ "name": "火场怪力", "level": 1 }]
   },
   {
-    "suite": "钢龙",
+    "name": "钢龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -713,7 +713,7 @@
     "skills": [{ "name": "风压耐性", "level": 2 }]
   },
   {
-    "suite": "泡狐龙",
+    "name": "泡狐龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 1 },
@@ -744,7 +744,7 @@
     "skills": [{ "name": "完美回避强化", "level": 1 }]
   },
   {
-    "suite": "炎王龙",
+    "name": "炎王龙",
     "weapons": [
       { "name": "单手剑", "v": 1 },
       { "name": "双剑", "v": 0 },
@@ -774,5 +774,25 @@
       { "name": "猎人集结", "level": 1 },
       { "name": "火场怪力", "level": 2 }
     ]
+  },
+  {
+    "name": "Mr Beast",
+    "weapons": [
+      { "name": "单手剑", "v": 1 },
+      { "name": "双剑", "v": 0 },
+      { "name": "大剑", "v": 0 },
+      { "name": "太刀", "v": 0 },
+      { "name": "大锤", "v": 0 },
+      { "name": "长枪", "v": 0 },
+      { "name": "铳枪", "v": 0 },
+      { "name": "充能斧", "v": 0 },
+      { "name": "轻弩枪", "v": 0 },
+      { "name": "弓", "v": 0 }
+    ],
+    "items": ["单手剑"],
+    "skill": "Mr Beast 挑战",
+    "level": 1,
+    "element": "无",
+    "skills": [{ "name": "Mr Beast 挑战", "level": 1 }]
   }
 ]

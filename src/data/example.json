@@ -6,7 +6,7 @@
     "description": ""
   },
   "armor": {
-    "suite": "",
+    "name": "",
     "items": [
       {
         "name": "头盔",
@@ -63,10 +63,10 @@
       }
     ],
     "type": "",
-    "suite": ""
+    "name": ""
   },
   "weapon_1": {
-    "suite": "",
+    "name": "",
     "items": [""],
     "skill": "",
     "level": 1,

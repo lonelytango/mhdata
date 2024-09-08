@@ -30,10 +30,9 @@ const weaponSuite = getWeaponSuite();
 
 const MHCombo = () => {
   const [data, setData] = useState<GearData>(initData);
+  const { gear, weapon, allSkills } = data;
 
   const armorHandler = (item: Armor) => {
-    const { gear, weapon } = data;
-
     if (gear.get(item.part)?.name === item.name) {
       gear.delete(item.part);
     } else {
@@ -43,73 +42,51 @@ const MHCombo = () => {
         part: item.part,
       });
     }
-
-    let rawSkills: Skill[] = [];
-    gear.forEach(value => {
-      rawSkills = rawSkills.concat(value.skills);
-    });
-
-    if (weapon) {
-      rawSkills.push({
-        name: weapon.skill ?? '',
-        level: weapon.level ?? 0,
-      });
-    }
-
-    const skillMap = new Map<string, number>();
-    for (const skill of rawSkills) {
-      const currentLevel = skillMap.get(skill.name) ?? 0;
-      skillMap.set(skill.name, currentLevel + skill.level);
-    }
-
-    const skillSet: Skill[] = [];
-    skillMap.forEach((value, key) => {
-      skillSet.push({
-        name: key,
-        level: value,
-      });
-    });
-
-    setData({ gear: gear, weapon, allSkills: skillSet });
+    updataGearData(gear, weapon);
   };
 
   const weaponHandler = (
     suite: string,
     weaponName: string,
-    skill: string,
-    level: number,
     skills?: {
       name: string;
       level: number;
     }[]
   ) => {
-    let { gear, weapon } = data;
+    let { weapon } = data;
     const weaponFullName = suite + weaponName;
     if (weapon?.name === weaponFullName) {
       weapon = undefined;
     } else {
       weapon = {
         name: weaponFullName,
-        skill: skill,
-        level: level,
-        v: 1,
         skills,
       };
     }
+    updataGearData(gear, weapon);
+  };
 
+  const updataGearData = (gear: Map<string, Armor>, weapon?: Weapon) => {
     let rawSkills: Skill[] = [];
     gear.forEach(value => {
-      rawSkills = rawSkills.concat(value.skills);
+      rawSkills = rawSkills.concat(value.skills ?? []);
     });
 
-    if (weapon && weapon.skills) {
-      for (const skill of weapon.skills) {
-        rawSkills.push({
-          name: skill.name ?? '',
-          level: skill.level ?? 0,
-        });
-      }
+    // if (weapon?.skills) {
+    //   console.log('WEAPONS SKILLS');
+    //   for (const skill of weapon.skills) {
+    //     console.log(`Skills: ${skill.name}`);
+    //   }
+    // }
+
+    if (weapon?.skills) {
+      rawSkills = rawSkills.concat(weapon.skills);
     }
+
+    // console.log('RAW SKILLS');
+    // for (const skill of rawSkills) {
+    //   console.log(`Skills: ${skill.name}`);
+    // }
 
     const skillMap = new Map<string, number>();
     for (const skill of rawSkills) {
@@ -137,7 +114,7 @@ const MHCombo = () => {
         <tbody>
           {armorSuite.map(suite => (
             <tr key={nanoid()}>
-              <td>{suite.suite}</td>
+              <td>{suite.name}</td>
               {suite.items.map(item => (
                 <td
                   key={nanoid()}
@@ -165,7 +142,7 @@ const MHCombo = () => {
         <tbody>
           {weaponSuite.map((suite: WeaponSuite) => (
             <tr key={nanoid()}>
-              <td>{suite.suite}</td>
+              <td>{suite.name}</td>
               {suite.weapons.map(item => {
                 return (
                   <td
@@ -174,19 +151,12 @@ const MHCombo = () => {
                       'w-12 h-12 border text-center cursor-pointer',
                       {
                         'text-gray-100': item.v === 0,
-                        'bg-green-100':
-                          weapon?.name === suite.suite + item.name,
+                        'bg-green-100': weapon?.name === suite.name + item.name,
                       }
                     )}
                     onClick={() =>
                       item.v === 1 &&
-                      weaponHandler(
-                        suite.suite,
-                        item.name,
-                        item.skill || suite.skill,
-                        item.level || suite.level,
-                        suite.skills
-                      )
+                      weaponHandler(suite.name, item.name, suite.skills)
                     }
                   >
                     {item.name}
@@ -199,8 +169,6 @@ const MHCombo = () => {
       </table>
     );
   };
-
-  const { gear, weapon, allSkills } = data;
 
   return (
     <main className="flex flex-row gap-5 h-svh text-xs p-4">

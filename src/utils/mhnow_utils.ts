@@ -26,37 +26,32 @@ export interface GearSearchResult {
   gears: GearDetail[];
 }
 
+export interface Gear {
+  name: string;
+  skills?: Skill[];
+}
+
 export interface Skill {
   name: string;
   level: number;
 }
 
-export interface Armor {
-  name: string;
+export interface Armor extends Gear {
   part: string;
-  skills: Skill[];
 }
 
 interface ArmorSuite {
-  suite: string;
+  name: string;
   items: Armor[];
 }
 
-export interface Weapon {
-  name: string;
-  v: number;
-  skill?: string;
-  level?: number;
-  skills?: Skill[];
+export interface Weapon extends Gear {
+  v?: number;
 }
 
-export interface WeaponSuite {
-  suite: string;
+export interface WeaponSuite extends Gear {
   weapons: Weapon[];
-  skill: string;
-  level: number;
   element: string;
-  skills?: Skill[];
 }
 
 export const armorName = (part: string) => {
@@ -97,14 +92,18 @@ export const search = (name: string) => {
   const data = armorData as ArmorSuite[];
   const gearArr: GearDetail[] = data.flatMap(armorSet => {
     return armorSet.items.flatMap(item => {
-      return item.skills
-        .filter(skill => skill.name === name)
-        .flatMap(skillItem => {
-          return {
-            ...skillItem,
-            gear: item.name,
-          };
-        });
+      if (item.skills) {
+        return item.skills
+          .filter(skill => skill.name === name)
+          .flatMap(skillItem => {
+            return {
+              ...skillItem,
+              gear: item.name,
+            };
+          });
+      } else {
+        return [];
+      }
     });
   });
 
