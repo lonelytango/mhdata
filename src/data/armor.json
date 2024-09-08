@@ -1,1171 +1,1254 @@
 [
-	{
-		"suite": "皮制",
-		"items": [
-			{
-				"name": "皮制头饰",
-				"part": "head",
-				"skills": [
-					{ "name": "看破", "level": 1 },
-					{ "name": "冰耐性", "level": 1 }
-				]
-			},
-			{
-				"name": "皮制服饰",
-				"part": "body",
-				"skills": [
-					{ "name": "攻击", "level": 1 },
-					{ "name": "火耐性", "level": 1 }
-				]
-			},
-			{
-				"name": "皮制手套",
-				"part": "wrist",
-				"skills": [
-					{ "name": "防御", "level": 1 },
-					{ "name": "雷耐性", "level": 1 }
-				]
-			},
-			{
-				"name": "皮制皮带",
-				"part": "waist",
-				"skills": [
-					{ "name": "体力增强", "level": 1 },
-					{ "name": "水耐性", "level": 1 }
-				]
-			},
-			{
-				"name": "皮制长裤",
-				"part": "leg",
-				"skills": [
-					{ "name": "毒耐性", "level": 1 },
-					{ "name": "麻痹耐性", "level": 1 }
-				]
-			}
-		]
-	},
-	{
-		"suite": "大凶豺龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [{ "name": "躯干强化", "level": 2 }],
-				"name": "凶豺龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "愈战愈勇", "level": 2 }],
-				"name": "凶豺龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "躯干强化", "level": 1 },
-					{ "name": "水属性攻击强化", "level": 1 }
-				],
-				"name": "凶豺龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "不屈", "level": 1 },
-					{ "name": "愈战愈勇", "level": 1 }
-				],
-				"name": "凶豺龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [{ "name": "水属性攻击强化", "level": 2 }],
-				"name": "凶豺龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "搔鸟",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "锁定", "level": 1 },
-					{ "name": "看破", "level": 1 }
-				],
-				"name": "搔鸟头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "毅力", "level": 2 }],
-				"name": "搔鸟铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "背水防御", "level": 1 },
-					{ "name": "看破", "level": 1 }
-				],
-				"name": "搔鸟腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "背水防御", "level": 1 },
-					{ "name": "回避距离UP", "level": 1 }
-				],
-				"name": "搔鸟腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [{ "name": "看破", "level": 2 }],
-				"name": "搔鸟护腿"
-			}
-		]
-	},
-	{
-		"suite": "毒妖鸟",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "集中", "level": 1 },
-					{ "name": "体力增强", "level": 2 }
-				],
-				"name": "毒妖鸟头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "毒耐性", "level": 1 },
-					{ "name": "集中", "level": 1 }
-				],
-				"name": "毒妖鸟铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "毒属性强化", "level": 1 },
-					{ "name": "毒耐性", "level": 1 }
-				],
-				"name": "毒妖鸟腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [{ "name": "毒属性强化", "level": 2 }],
-				"name": "毒妖鸟腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "体力增强", "level": 1 },
-					{ "name": "毒耐性", "level": 1 }
-				],
-				"name": "毒妖鸟护腿"
-			}
-		]
-	},
-	{
-		"suite": "妖水",
-		"items": [
-			{
-				"name": "妖水头盔",
-				"part": "head",
-				"skills": [
-					{ "name": "弱点特效", "level": 1 },
-					{ "name": "锁定", "level": 1 }
-				]
-			},
-			{
-				"name": "妖水铠甲",
-				"part": "body",
-				"skills": [
-					{ "name": "强化持续", "level": 1 },
-					{ "name": "愈战愈勇", "level": 1 }
-				]
-			},
-			{
-				"name": "妖水腕甲",
-				"part": "wrist",
-				"skills": [
-					{ "name": "愈战愈勇", "level": 1 },
-					{ "name": "轻巧", "level": 1 }
-				]
-			},
-			{
-				"name": "妖水腰甲",
-				"part": "waist",
-				"skills": [
-					{ "name": "装填速度", "level": 1 },
-					{ "name": "后座力减轻", "level": 1 }
-				]
-			},
-			{
-				"name": "妖水护腿",
-				"part": "leg",
-				"skills": [
-					{ "name": "强化持续", "level": 1 },
-					{ "name": "弱点特效", "level": 1 }
-				]
-			}
-		]
-	},
-	{
-		"suite": "土砂龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "防御", "level": 1 },
-					{ "name": "攻击守势", "level": 1 }
-				],
-				"name": "土砂龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "攻击守势", "level": 2 }],
-				"name": "土砂龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "防御性能", "level": 2 }],
-				"name": "土砂龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "防御", "level": 1 },
-					{ "name": "防御性能", "level": 1 }
-				],
-				"name": "土砂龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "后座力减轻", "level": 1 },
-					{ "name": "防御", "level": 2 }
-				],
-				"name": "土砂龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "凶颚龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [{ "name": "麻痹耐性", "level": 2 }],
-				"name": "凶颚龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "麻痹耐性", "level": 1 },
-					{ "name": "奇袭", "level": 1 }
-				],
-				"name": "凶颚龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "奇袭", "level": 1 },
-					{ "name": "耳塞", "level": 1 }
-				],
-				"name": "凶颚龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "麻痹属性强化", "level": 1 },
-					{ "name": "耳塞", "level": 2 }
-				],
-				"name": "凶颚龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [{ "name": "麻痹属性强化", "level": 2 }],
-				"name": "凶颚龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "飞雷龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "装填速度", "level": 1 },
-					{ "name": "完美回避强化", "level": 1 }
-				],
-				"name": "飞雷龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "回避距离UP", "level": 1 },
-					{ "name": "雷属性攻击强化", "level": 1 }
-				],
-				"name": "飞雷龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "回避距离UP", "level": 1 },
-					{ "name": "完美回避强化", "level": 1 }
-				],
-				"name": "飞雷龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [{ "name": "雷属性攻击强化", "level": 2 }],
-				"name": "飞雷龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "完美回避强化", "level": 1 },
-					{ "name": "雷耐性", "level": 1 }
-				],
-				"name": "飞雷龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "浮空龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "SP计量表加速", "level": 1 },
-					{ "name": "风压耐性", "level": 1 }
-				],
-				"name": "浮空龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "后座力减轻", "level": 2 }],
-				"name": "浮空龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "SP计量表加速", "level": 1 },
-					{ "name": "精灵加护", "level": 1 }
-				],
-				"name": "浮空龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [{ "name": "精灵加护", "level": 2 }],
-				"name": "浮空龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [{ "name": "风压耐性", "level": 2 }],
-				"name": "浮空龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "泥鱼龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "水耐性", "level": 1 },
-					{ "name": "背水防御", "level": 1 }
-				],
-				"name": "泥鱼龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "水属性攻击强化", "level": 1 },
-					{ "name": "背水防御", "level": 1 }
-				],
-				"name": "泥鱼龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "水属性攻击强化", "level": 2 }],
-				"name": "泥鱼龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [{ "name": "水耐性", "level": 2 }],
-				"name": "泥鱼龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "集中", "level": 1 },
-					{ "name": "背水防御", "level": 1 }
-				],
-				"name": "泥鱼龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "蛮颚龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "火属性攻击强化", "level": 2 },
-					{ "name": "火耐性", "level": 1 }
-				],
-				"name": "蛮颚龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "SP技能威力提升", "level": 2 }],
-				"name": "蛮颚龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "火属性攻击强化", "level": 2 }],
-				"name": "蛮颚龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "火耐性", "level": 1 },
-					{ "name": "SP技能威力提升", "level": 1 }
-				],
-				"name": "蛮颚龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [{ "name": "无伤", "level": 2 }],
-				"name": "蛮颚龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "雌火龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "体力增强", "level": 2 },
-					{ "name": "毒属性强化", "level": 1 }
-				],
-				"name": "雌火龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "毒属性强化", "level": 2 }],
-				"name": "雌火龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "锁定", "level": 1 },
-					{ "name": "连击", "level": 2 }
-				],
-				"name": "雌火龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "毒耐性", "level": 1 },
-					{ "name": "连击", "level": 1 }
-				],
-				"name": "雌火龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [{ "name": "体力增强", "level": 2 }],
-				"name": "雌火龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "火龙心",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "SP技能威力提升", "level": 1 },
-					{ "name": "风压耐性", "level": 1 }
-				],
-				"name": "火龙心头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "龙属性攻击强化", "level": 1 },
-					{ "name": "集中", "level": 1 }
-				],
-				"name": "火龙心铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "风压耐性", "level": 2 },
-					{ "name": "看破", "level": 1 }
-				],
-				"name": "火龙心腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [{ "name": "看破", "level": 2 }],
-				"name": "火龙心腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "SP技能威力提升", "level": 2 },
-					{ "name": "龙属性攻击强化", "level": 1 }
-				],
-				"name": "火龙心护腿"
-			}
-		]
-	},
-	{
-		"suite": "风漂龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "精灵加护", "level": 1 },
-					{ "name": "冰属性攻击强化", "level": 1 }
-				],
-				"name": "风漂龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "精灵加护", "level": 2 },
-					{ "name": "风压耐性", "level": 1 }
-				],
-				"name": "风漂龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "装填速度", "level": 2 }],
-				"name": "风漂龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "冰属性攻击强化", "level": 2 },
-					{ "name": "风压耐性", "level": 1 }
-				],
-				"name": "风漂龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "装填速度", "level": 1 },
-					{ "name": "冰耐性", "level": 1 }
-				],
-				"name": "风漂龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "角龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [{ "name": "火场怪力", "level": 2 }],
-				"name": "角龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "KO术", "level": 1 },
-					{ "name": "火场怪力", "level": 1 }
-				],
-				"name": "角龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "火场怪力", "level": 2 },
-					{ "name": "破坏王", "level": 1 }
-				],
-				"name": "角龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "破坏王", "level": 1 },
-					{ "name": "攻击守势", "level": 1 }
-				],
-				"name": "角龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "KO术", "level": 2 },
-					{ "name": "破坏王", "level": 1 }
-				],
-				"name": "角龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "暴君角龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "破坏王", "level": 2 },
-					{ "name": "怨恨", "level": 1 }
-				],
-				"name": "暴君角龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "怨恨", "level": 2 },
-					{ "name": "躯干强化", "level": 1 }
-				],
-				"name": "暴君角龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "怨恨", "level": 1 },
-					{ "name": "集中", "level": 1 }
-				],
-				"name": "暴君角龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "锁定", "level": 1 },
-					{ "name": "火场怪力", "level": 1 }
-				],
-				"name": "暴君角龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "火场怪力", "level": 1 },
-					{ "name": "攻击守势", "level": 1 }
-				],
-				"name": "暴君角龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "火龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "攻击", "level": 2 },
-					{ "name": "火属性攻击强化", "level": 1 }
-				],
-				"name": "火龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [{ "name": "弱点特效", "level": 2 }],
-				"name": "火龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "火耐性", "level": 1 },
-					{ "name": "攻击", "level": 1 }
-				],
-				"name": "火龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "集中", "level": 1 },
-					{ "name": "火属性攻击强化", "level": 1 }
-				],
-				"name": "火龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "火耐性", "level": 1 },
-					{ "name": "弱点特效", "level": 1 }
-				],
-				"name": "火龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "火龙魂",
-		"items": [
-			{
-				"part": "head",
-				"skills": [{ "name": "集中", "level": 2 }],
-				"name": "火龙魂头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "耳塞", "level": 2 },
-					{ "name": "火属性攻击强化", "level": 1 }
-				],
-				"name": "火龙魂铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "超会心", "level": 2 }],
-				"name": "火龙魂腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "SP技能威力提升", "level": 1 },
-					{ "name": "超会心", "level": 1 }
-				],
-				"name": "火龙魂腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "装填速度", "level": 2 },
-					{ "name": "火属性攻击强化", "level": 1 }
-				],
-				"name": "火龙魂护腿"
-			}
-		]
-	},
-	{
-		"suite": "骨锤龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [{ "name": "防御性能", "level": 2 }],
-				"name": "骨锤龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "睡眠攻击强化", "level": 1 },
-					{ "name": "防御", "level": 1 }
-				],
-				"name": "骨锤龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "KO术", "level": 1 },
-					{ "name": "睡眠耐性", "level": 1 }
-				],
-				"name": "骨锤龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [{ "name": "睡眠攻击强化", "level": 2 }],
-				"name": "骨锤龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "睡眠耐性", "level": 1 },
-					{ "name": "防御性能", "level": 1 }
-				],
-				"name": "骨锤龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "猛牛龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "耐震", "level": 1 },
-					{ "name": "后座力减轻", "level": 1 }
-				],
-				"name": "猛牛龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "SP计量表加速", "level": 1 },
-					{ "name": "破坏王", "level": 1 }
-				],
-				"name": "猛牛龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [
-					{ "name": "攻击守势", "level": 1 },
-					{ "name": "耐震", "level": 1 }
-				],
-				"name": "猛牛龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "攻击", "level": 1 },
-					{ "name": "躯干强化", "level": 1 }
-				],
-				"name": "猛牛龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "精灵加护", "level": 1 },
-					{ "name": "SP计量表加速", "level": 1 }
-				],
-				"name": "猛牛龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "冰牙龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "回避距离UP", "level": 1 },
-					{ "name": "轻巧", "level": 1 }
-				],
-				"name": "冰牙龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "冰耐性", "level": 1 },
-					{ "name": "冰属性攻击强化", "level": 1 }
-				],
-				"name": "冰牙龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "冰属性攻击强化", "level": 2 }],
-				"name": "冰牙龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "轻巧", "level": 1 },
-					{ "name": "冰耐性", "level": 1 }
-				],
-				"name": "冰牙龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "奇袭", "level": 1 },
-					{ "name": "回避距离UP", "level": 1 }
-				],
-				"name": "冰牙龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "雷狼龙",
-		"items": [
-			{
-				"part": "head",
-				"skills": [
-					{ "name": "SP计量表加速【完美回避】", "level": 1 },
-					{ "name": "连击", "level": 1 }
-				],
-				"name": "雷狼龙头盔"
-			},
-			{
-				"part": "body",
-				"skills": [
-					{ "name": "SP计量表加速【完美回避】", "level": 1 },
-					{ "name": "雷耐性", "level": 1 }
-				],
-				"name": "雷狼龙铠甲"
-			},
-			{
-				"part": "wrist",
-				"skills": [{ "name": "雷属性攻击强化", "level": 2 }],
-				"name": "雷狼龙腕甲"
-			},
-			{
-				"part": "waist",
-				"skills": [
-					{ "name": "完美回避强化", "level": 1 },
-					{ "name": "装填速度", "level": 1 }
-				],
-				"name": "雷狼龙腰甲"
-			},
-			{
-				"part": "leg",
-				"skills": [
-					{ "name": "连击", "level": 1 },
-					{ "name": "雷属性攻击强化", "level": 1 }
-				],
-				"name": "雷狼龙护腿"
-			}
-		]
-	},
-	{
-		"suite": "眩鸟",
-		"items": [
-			{
-				"name": "眩鸟头盔",
-				"part": "head",
-				"skills": [
-					{ "name": "雷属性攻击强化", "level": 1 },
-					{ "name": "回避距离UP", "level": 1 }
-				]
-			},
-			{
-				"name": "眩鸟铠甲",
-				"part": "body",
-				"skills": [
-					{ "name": "奇袭【状态异常】", "level": 1 },
-					{ "name": "完美回避强化", "level": 1 }
-				]
-			},
-			{
-				"name": "眩鸟腕甲",
-				"part": "wrist",
-				"skills": [{ "name": "奇袭【状态异常】", "level": 2 }]
-			},
-			{
-				"name": "眩鸟腰甲",
-				"part": "waist",
-				"skills": [
-					{ "name": "回避距离UP", "level": 1 },
-					{ "name": "奇袭【状态异常】", "level": 1 }
-				]
-			},
-			{
-				"name": "眩鸟护腿",
-				"part": "leg",
-				"skills": [{ "name": "不屈", "level": 2 }]
-			}
-		]
-	},
-	{
-		"suite": "惨爪龙",
-		"items": [
-			{
-				"name": "惨爪龙头盔",
-				"part": "head",
-				"skills": [{ "name": "行云流水", "level": 1 }]
-			},
-			{
-				"name": "惨爪龙铠甲",
-				"part": "body",
-				"skills": [
-					{ "name": "看破", "level": 2 },
-					{ "name": "裂伤耐性", "level": 1 }
-				]
-			},
-			{
-				"name": "惨爪龙腕甲",
-				"part": "wrist",
-				"skills": [
-					{ "name": "行云流水", "level": 1 },
-					{ "name": "裂伤耐性", "level": 2 }
-				]
-			},
-			{
-				"name": "惨爪龙腰甲",
-				"part": "waist",
-				"skills": [
-					{ "name": "看破", "level": 1 },
-					{ "name": "SP计量表加速【完美回避】", "level": 1 }
-				]
-			},
-			{
-				"name": "惨爪龙护腿",
-				"part": "leg",
-				"skills": [{ "name": "SP计量表加速【完美回避】", "level": 2 }]
-			}
-		]
-	},
-	{
-		"suite": "恐暴龙",
-		"items": [
-			{
-				"name": "恐暴龙头盔",
-				"part": "head",
-				"skills": [
-					{ "name": "KO术", "level": 2 },
-					{ "name": "龙属性攻击强化", "level": 1 }
-				]
-			},
-			{
-				"name": "恐暴龙铠甲",
-				"part": "body",
-				"skills": [{ "name": "力量解放", "level": 2 }]
-			},
-			{
-				"name": "恐暴龙腕甲",
-				"part": "wrist",
-				"skills": [
-					{ "name": "无伤", "level": 2 },
-					{ "name": "龙属性攻击强化", "level": 1 }
-				]
-			},
-			{
-				"name": "恐暴龙腰甲",
-				"part": "waist",
-				"skills": [
-					{ "name": "龙属性攻击强化", "level": 2 },
-					{ "name": "耐震", "level": 1 }
-				]
-			},
-			{
-				"name": "恐暴龙护腿",
-				"part": "leg",
-				"skills": [
-					{ "name": "毅力", "level": 2 },
-					{ "name": "力量解放", "level": 1 }
-				]
-			}
-		]
-	},
-	{
-		"suite": "岩龙",
-		"items": [
-			{
-				"name": "岩龙头盔",
-				"part": "head",
-				"skills": [{ "name": "睡眠耐性", "level": 2 }]
-			},
-			{
-				"name": "岩龙铠甲",
-				"part": "body",
-				"skills": [{ "name": "炮术", "level": 2 }]
-			},
-			{
-				"name": "岩龙腕甲",
-				"part": "wrist",
-				"skills": [{ "name": "后座力减轻", "level": 2 }]
-			},
-			{
-				"name": "岩龙腰甲",
-				"part": "waist",
-				"skills": [{ "name": "火属性攻击强化", "level": 2 }]
-			},
-			{
-				"name": "岩龙护腿",
-				"part": "leg",
-				"skills": [
-					{ "name": "炮术", "level": 1 },
-					{ "name": "防御性能", "level": 1 }
-				]
-			}
-		]
-	},
-	{
-		"suite": "奇怪龙",
-		"items": [
-			{
-				"name": "奇怪龙头盔",
-				"part": "head",
-				"skills": [
-					{ "name": "麻痹属性强化", "level": 1 },
-					{ "name": "SP计量表保险", "level": 1 }
-				]
-			},
-			{
-				"name": "奇怪龙铠甲",
-				"part": "body",
-				"skills": [{ "name": "雷属性攻击强化", "level": 1 }]
-			},
-			{
-				"name": "奇怪龙腕甲",
-				"part": "wrist",
-				"skills": [
-					{ "name": "SP计量表保险", "level": 2 },
-					{ "name": "不屈", "level": 1 }
-				]
-			},
-			{
-				"name": "奇怪龙腰甲",
-				"part": "waist",
-				"skills": [{ "name": "麻痹耐性", "level": 2 }]
-			},
-			{
-				"name": "奇怪龙护腿",
-				"part": "leg",
-				"skills": [
-					{ "name": "集中", "level": 1 },
-					{ "name": "KO术", "level": 1 }
-				]
-			}
-		]
-	},
-	{
-		"suite": "钢龙",
-		"items": [
-			{
-				"name": "钢龙头盔",
-				"part": "head",
-				"skills": [
-					{ "name": "钢龙的冻风", "level": 1 },
-					{ "name": "装填速度", "level": 1 },
-					{ "name": "耳塞", "level": 1 }
-				]
-			},
-			{
-				"name": "钢龙铠甲",
-				"part": "body",
-				"skills": [
-					{ "name": "钢龙的冻风", "level": 1 },
-					{ "name": "破坏王", "level": 1 },
-					{ "name": "体力增强", "level": 1 }
-				]
-			},
-			{
-				"name": "钢龙腕甲",
-				"part": "wrist",
-				"skills": [
-					{ "name": "钢龙的冻风", "level": 1 },
-					{ "name": "集中", "level": 1 },
-					{ "name": "回避距离UP", "level": 1 }
-				]
-			},
-			{
-				"name": "钢龙腰甲",
-				"part": "waist",
-				"skills": [
-					{ "name": "钢龙的冻风", "level": 1 },
-					{ "name": "弱点特效", "level": 1 },
-					{ "name": "风压耐性", "level": 1 }
-				]
-			},
-			{
-				"name": "钢龙护腿",
-				"part": "leg",
-				"skills": [
-					{ "name": "钢龙的冻风", "level": 1 },
-					{ "name": "轻巧", "level": 1 },
-					{ "name": "完美回避强化", "level": 1 }
-				]
-			}
-		]
-	},
-	{
-		"suite": "万圣节",
-		"items": [
-			{
-				"name": "杰克南瓜头",
-				"part": "head",
-				"skills": [{ "name": "团结力", "level": 1 }]
-			}
-		]
-	},
-	{
-		"suite": "新年",
-		"items": [
-			{
-				"name": "新年快乐眼镜",
-				"part": "head",
-				"skills": [{ "name": "新年快乐【2024】", "level": 1 }]
-			}
-		]
-	},
-	{
-		"suite": "春节",
-		"items": [
-			{
-				"name": "舞龙面具",
-				"part": "head",
-				"skills": [{ "name": "超会心", "level": 2 }]
-			}
-		]
-	}
+  {
+    "suite": "皮制",
+    "items": [
+      {
+        "name": "皮制头饰",
+        "part": "head",
+        "skills": [
+          { "name": "看破", "level": 1 },
+          { "name": "冰耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "皮制服饰",
+        "part": "body",
+        "skills": [
+          { "name": "攻击", "level": 1 },
+          { "name": "火耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "皮制手套",
+        "part": "wrist",
+        "skills": [
+          { "name": "防御", "level": 1 },
+          { "name": "雷耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "皮制皮带",
+        "part": "waist",
+        "skills": [
+          { "name": "体力增强", "level": 1 },
+          { "name": "水耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "皮制长裤",
+        "part": "leg",
+        "skills": [
+          { "name": "毒耐性", "level": 1 },
+          { "name": "麻痹耐性", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "大凶豺龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [{ "name": "躯干强化", "level": 2 }],
+        "name": "凶豺龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "愈战愈勇", "level": 2 }],
+        "name": "凶豺龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "躯干强化", "level": 1 },
+          { "name": "水属性攻击强化", "level": 1 }
+        ],
+        "name": "凶豺龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "不屈", "level": 1 },
+          { "name": "愈战愈勇", "level": 1 }
+        ],
+        "name": "凶豺龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [{ "name": "水属性攻击强化", "level": 2 }],
+        "name": "凶豺龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "搔鸟",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "锁定", "level": 1 },
+          { "name": "看破", "level": 1 }
+        ],
+        "name": "搔鸟头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "毅力", "level": 2 }],
+        "name": "搔鸟铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "背水防御", "level": 1 },
+          { "name": "看破", "level": 1 }
+        ],
+        "name": "搔鸟腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "背水防御", "level": 1 },
+          { "name": "回避距离UP", "level": 1 }
+        ],
+        "name": "搔鸟腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [{ "name": "看破", "level": 2 }],
+        "name": "搔鸟护腿"
+      }
+    ]
+  },
+  {
+    "suite": "毒妖鸟",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "集中", "level": 1 },
+          { "name": "体力增强", "level": 2 }
+        ],
+        "name": "毒妖鸟头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "毒耐性", "level": 1 },
+          { "name": "集中", "level": 1 }
+        ],
+        "name": "毒妖鸟铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "毒属性强化", "level": 1 },
+          { "name": "毒耐性", "level": 1 }
+        ],
+        "name": "毒妖鸟腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [{ "name": "毒属性强化", "level": 2 }],
+        "name": "毒妖鸟腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "体力增强", "level": 1 },
+          { "name": "毒耐性", "level": 1 }
+        ],
+        "name": "毒妖鸟护腿"
+      }
+    ]
+  },
+  {
+    "suite": "妖水",
+    "items": [
+      {
+        "name": "妖水头盔",
+        "part": "head",
+        "skills": [
+          { "name": "弱点特效", "level": 1 },
+          { "name": "锁定", "level": 1 }
+        ]
+      },
+      {
+        "name": "妖水铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "强化持续", "level": 1 },
+          { "name": "愈战愈勇", "level": 1 }
+        ]
+      },
+      {
+        "name": "妖水腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "愈战愈勇", "level": 1 },
+          { "name": "轻巧", "level": 1 }
+        ]
+      },
+      {
+        "name": "妖水腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "装填速度", "level": 1 },
+          { "name": "后座力减轻", "level": 1 }
+        ]
+      },
+      {
+        "name": "妖水护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "强化持续", "level": 1 },
+          { "name": "弱点特效", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "土砂龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "防御", "level": 1 },
+          { "name": "攻击守势", "level": 1 }
+        ],
+        "name": "土砂龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "攻击守势", "level": 2 }],
+        "name": "土砂龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "防御性能", "level": 2 }],
+        "name": "土砂龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "防御", "level": 1 },
+          { "name": "防御性能", "level": 1 }
+        ],
+        "name": "土砂龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "后座力减轻", "level": 1 },
+          { "name": "防御", "level": 2 }
+        ],
+        "name": "土砂龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "凶颚龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [{ "name": "麻痹耐性", "level": 2 }],
+        "name": "凶颚龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "麻痹耐性", "level": 1 },
+          { "name": "奇袭", "level": 1 }
+        ],
+        "name": "凶颚龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "奇袭", "level": 1 },
+          { "name": "耳塞", "level": 1 }
+        ],
+        "name": "凶颚龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "麻痹属性强化", "level": 1 },
+          { "name": "耳塞", "level": 2 }
+        ],
+        "name": "凶颚龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [{ "name": "麻痹属性强化", "level": 2 }],
+        "name": "凶颚龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "飞雷龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "装填速度", "level": 1 },
+          { "name": "完美回避强化", "level": 1 }
+        ],
+        "name": "飞雷龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "回避距离UP", "level": 1 },
+          { "name": "雷属性攻击强化", "level": 1 }
+        ],
+        "name": "飞雷龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "回避距离UP", "level": 1 },
+          { "name": "完美回避强化", "level": 1 }
+        ],
+        "name": "飞雷龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [{ "name": "雷属性攻击强化", "level": 2 }],
+        "name": "飞雷龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "完美回避强化", "level": 1 },
+          { "name": "雷耐性", "level": 1 }
+        ],
+        "name": "飞雷龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "浮空龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "SP计量表加速", "level": 1 },
+          { "name": "风压耐性", "level": 1 }
+        ],
+        "name": "浮空龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "后座力减轻", "level": 2 }],
+        "name": "浮空龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "SP计量表加速", "level": 1 },
+          { "name": "精灵加护", "level": 1 }
+        ],
+        "name": "浮空龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [{ "name": "精灵加护", "level": 2 }],
+        "name": "浮空龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [{ "name": "风压耐性", "level": 2 }],
+        "name": "浮空龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "泥鱼龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "水耐性", "level": 1 },
+          { "name": "背水防御", "level": 1 }
+        ],
+        "name": "泥鱼龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "水属性攻击强化", "level": 1 },
+          { "name": "背水防御", "level": 1 }
+        ],
+        "name": "泥鱼龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "水属性攻击强化", "level": 2 }],
+        "name": "泥鱼龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [{ "name": "水耐性", "level": 2 }],
+        "name": "泥鱼龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "集中", "level": 1 },
+          { "name": "背水防御", "level": 1 }
+        ],
+        "name": "泥鱼龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "蛮颚龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "火属性攻击强化", "level": 2 },
+          { "name": "火耐性", "level": 1 }
+        ],
+        "name": "蛮颚龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "SP技能威力提升", "level": 2 }],
+        "name": "蛮颚龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "火属性攻击强化", "level": 2 }],
+        "name": "蛮颚龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "火耐性", "level": 1 },
+          { "name": "SP技能威力提升", "level": 1 }
+        ],
+        "name": "蛮颚龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [{ "name": "无伤", "level": 2 }],
+        "name": "蛮颚龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "雌火龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "体力增强", "level": 2 },
+          { "name": "毒属性强化", "level": 1 }
+        ],
+        "name": "雌火龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "毒属性强化", "level": 2 }],
+        "name": "雌火龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "锁定", "level": 1 },
+          { "name": "连击", "level": 2 }
+        ],
+        "name": "雌火龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "毒耐性", "level": 1 },
+          { "name": "连击", "level": 1 }
+        ],
+        "name": "雌火龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [{ "name": "体力增强", "level": 2 }],
+        "name": "雌火龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "火龙心",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "SP技能威力提升", "level": 1 },
+          { "name": "风压耐性", "level": 1 }
+        ],
+        "name": "火龙心头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "龙属性攻击强化", "level": 1 },
+          { "name": "集中", "level": 1 }
+        ],
+        "name": "火龙心铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "风压耐性", "level": 2 },
+          { "name": "看破", "level": 1 }
+        ],
+        "name": "火龙心腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [{ "name": "看破", "level": 2 }],
+        "name": "火龙心腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "SP技能威力提升", "level": 2 },
+          { "name": "龙属性攻击强化", "level": 1 }
+        ],
+        "name": "火龙心护腿"
+      }
+    ]
+  },
+  {
+    "suite": "风漂龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "精灵加护", "level": 1 },
+          { "name": "冰属性攻击强化", "level": 1 }
+        ],
+        "name": "风漂龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "精灵加护", "level": 2 },
+          { "name": "风压耐性", "level": 1 }
+        ],
+        "name": "风漂龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "装填速度", "level": 2 }],
+        "name": "风漂龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "冰属性攻击强化", "level": 2 },
+          { "name": "风压耐性", "level": 1 }
+        ],
+        "name": "风漂龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "装填速度", "level": 1 },
+          { "name": "冰耐性", "level": 1 }
+        ],
+        "name": "风漂龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "角龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [{ "name": "火场怪力", "level": 2 }],
+        "name": "角龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "KO术", "level": 1 },
+          { "name": "火场怪力", "level": 1 }
+        ],
+        "name": "角龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "火场怪力", "level": 2 },
+          { "name": "破坏王", "level": 1 }
+        ],
+        "name": "角龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "破坏王", "level": 1 },
+          { "name": "攻击守势", "level": 1 }
+        ],
+        "name": "角龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "KO术", "level": 2 },
+          { "name": "破坏王", "level": 1 }
+        ],
+        "name": "角龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "暴君角龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "破坏王", "level": 2 },
+          { "name": "怨恨", "level": 1 }
+        ],
+        "name": "暴君角龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "怨恨", "level": 2 },
+          { "name": "躯干强化", "level": 1 }
+        ],
+        "name": "暴君角龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "怨恨", "level": 1 },
+          { "name": "集中", "level": 1 }
+        ],
+        "name": "暴君角龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "锁定", "level": 1 },
+          { "name": "火场怪力", "level": 1 }
+        ],
+        "name": "暴君角龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "火场怪力", "level": 1 },
+          { "name": "攻击守势", "level": 1 }
+        ],
+        "name": "暴君角龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "火龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "攻击", "level": 2 },
+          { "name": "火属性攻击强化", "level": 1 }
+        ],
+        "name": "火龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [{ "name": "弱点特效", "level": 2 }],
+        "name": "火龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "火耐性", "level": 1 },
+          { "name": "攻击", "level": 1 }
+        ],
+        "name": "火龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "集中", "level": 1 },
+          { "name": "火属性攻击强化", "level": 1 }
+        ],
+        "name": "火龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "火耐性", "level": 1 },
+          { "name": "弱点特效", "level": 1 }
+        ],
+        "name": "火龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "火龙魂",
+    "items": [
+      {
+        "part": "head",
+        "skills": [{ "name": "集中", "level": 2 }],
+        "name": "火龙魂头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "耳塞", "level": 2 },
+          { "name": "火属性攻击强化", "level": 1 }
+        ],
+        "name": "火龙魂铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "超会心", "level": 2 }],
+        "name": "火龙魂腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "SP技能威力提升", "level": 1 },
+          { "name": "超会心", "level": 1 }
+        ],
+        "name": "火龙魂腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "装填速度", "level": 2 },
+          { "name": "火属性攻击强化", "level": 1 }
+        ],
+        "name": "火龙魂护腿"
+      }
+    ]
+  },
+  {
+    "suite": "骨锤龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [{ "name": "防御性能", "level": 2 }],
+        "name": "骨锤龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "睡眠攻击强化", "level": 1 },
+          { "name": "防御", "level": 1 }
+        ],
+        "name": "骨锤龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "KO术", "level": 1 },
+          { "name": "睡眠耐性", "level": 1 }
+        ],
+        "name": "骨锤龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [{ "name": "睡眠攻击强化", "level": 2 }],
+        "name": "骨锤龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "睡眠耐性", "level": 1 },
+          { "name": "防御性能", "level": 1 }
+        ],
+        "name": "骨锤龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "猛牛龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "耐震", "level": 1 },
+          { "name": "后座力减轻", "level": 1 }
+        ],
+        "name": "猛牛龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "SP计量表加速", "level": 1 },
+          { "name": "破坏王", "level": 1 }
+        ],
+        "name": "猛牛龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [
+          { "name": "攻击守势", "level": 1 },
+          { "name": "耐震", "level": 1 }
+        ],
+        "name": "猛牛龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "攻击", "level": 1 },
+          { "name": "躯干强化", "level": 1 }
+        ],
+        "name": "猛牛龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "精灵加护", "level": 1 },
+          { "name": "SP计量表加速", "level": 1 }
+        ],
+        "name": "猛牛龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "冰牙龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "回避距离UP", "level": 1 },
+          { "name": "轻巧", "level": 1 }
+        ],
+        "name": "冰牙龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "冰耐性", "level": 1 },
+          { "name": "冰属性攻击强化", "level": 1 }
+        ],
+        "name": "冰牙龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "冰属性攻击强化", "level": 2 }],
+        "name": "冰牙龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "轻巧", "level": 1 },
+          { "name": "冰耐性", "level": 1 }
+        ],
+        "name": "冰牙龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "奇袭", "level": 1 },
+          { "name": "回避距离UP", "level": 1 }
+        ],
+        "name": "冰牙龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "雷狼龙",
+    "items": [
+      {
+        "part": "head",
+        "skills": [
+          { "name": "SP计量表加速【完美回避】", "level": 1 },
+          { "name": "连击", "level": 1 }
+        ],
+        "name": "雷狼龙头盔"
+      },
+      {
+        "part": "body",
+        "skills": [
+          { "name": "SP计量表加速【完美回避】", "level": 1 },
+          { "name": "雷耐性", "level": 1 }
+        ],
+        "name": "雷狼龙铠甲"
+      },
+      {
+        "part": "wrist",
+        "skills": [{ "name": "雷属性攻击强化", "level": 2 }],
+        "name": "雷狼龙腕甲"
+      },
+      {
+        "part": "waist",
+        "skills": [
+          { "name": "完美回避强化", "level": 1 },
+          { "name": "装填速度", "level": 1 }
+        ],
+        "name": "雷狼龙腰甲"
+      },
+      {
+        "part": "leg",
+        "skills": [
+          { "name": "连击", "level": 1 },
+          { "name": "雷属性攻击强化", "level": 1 }
+        ],
+        "name": "雷狼龙护腿"
+      }
+    ]
+  },
+  {
+    "suite": "眩鸟",
+    "items": [
+      {
+        "name": "眩鸟头盔",
+        "part": "head",
+        "skills": [
+          { "name": "雷属性攻击强化", "level": 1 },
+          { "name": "回避距离UP", "level": 1 }
+        ]
+      },
+      {
+        "name": "眩鸟铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "奇袭【状态异常】", "level": 1 },
+          { "name": "完美回避强化", "level": 1 }
+        ]
+      },
+      {
+        "name": "眩鸟腕甲",
+        "part": "wrist",
+        "skills": [{ "name": "奇袭【状态异常】", "level": 2 }]
+      },
+      {
+        "name": "眩鸟腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "回避距离UP", "level": 1 },
+          { "name": "奇袭【状态异常】", "level": 1 }
+        ]
+      },
+      {
+        "name": "眩鸟护腿",
+        "part": "leg",
+        "skills": [{ "name": "不屈", "level": 2 }]
+      }
+    ]
+  },
+  {
+    "suite": "惨爪龙",
+    "items": [
+      {
+        "name": "惨爪龙头盔",
+        "part": "head",
+        "skills": [{ "name": "行云流水", "level": 1 }]
+      },
+      {
+        "name": "惨爪龙铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "看破", "level": 2 },
+          { "name": "裂伤耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "惨爪龙腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "行云流水", "level": 1 },
+          { "name": "裂伤耐性", "level": 2 }
+        ]
+      },
+      {
+        "name": "惨爪龙腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "看破", "level": 1 },
+          { "name": "SP计量表加速【完美回避】", "level": 1 }
+        ]
+      },
+      {
+        "name": "惨爪龙护腿",
+        "part": "leg",
+        "skills": [{ "name": "SP计量表加速【完美回避】", "level": 2 }]
+      }
+    ]
+  },
+  {
+    "suite": "恐暴龙",
+    "items": [
+      {
+        "name": "恐暴龙头盔",
+        "part": "head",
+        "skills": [
+          { "name": "KO术", "level": 2 },
+          { "name": "龙属性攻击强化", "level": 1 }
+        ]
+      },
+      {
+        "name": "恐暴龙铠甲",
+        "part": "body",
+        "skills": [{ "name": "力量解放", "level": 2 }]
+      },
+      {
+        "name": "恐暴龙腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "无伤", "level": 2 },
+          { "name": "龙属性攻击强化", "level": 1 }
+        ]
+      },
+      {
+        "name": "恐暴龙腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "龙属性攻击强化", "level": 2 },
+          { "name": "耐震", "level": 1 }
+        ]
+      },
+      {
+        "name": "恐暴龙护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "毅力", "level": 2 },
+          { "name": "力量解放", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "岩龙",
+    "items": [
+      {
+        "name": "岩龙头盔",
+        "part": "head",
+        "skills": [{ "name": "睡眠耐性", "level": 2 }]
+      },
+      {
+        "name": "岩龙铠甲",
+        "part": "body",
+        "skills": [{ "name": "炮术", "level": 2 }]
+      },
+      {
+        "name": "岩龙腕甲",
+        "part": "wrist",
+        "skills": [{ "name": "后座力减轻", "level": 2 }]
+      },
+      {
+        "name": "岩龙腰甲",
+        "part": "waist",
+        "skills": [{ "name": "火属性攻击强化", "level": 2 }]
+      },
+      {
+        "name": "岩龙护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "炮术", "level": 1 },
+          { "name": "防御性能", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "奇怪龙",
+    "items": [
+      {
+        "name": "奇怪龙头盔",
+        "part": "head",
+        "skills": [
+          { "name": "麻痹属性强化", "level": 1 },
+          { "name": "SP计量表保险", "level": 1 }
+        ]
+      },
+      {
+        "name": "奇怪龙铠甲",
+        "part": "body",
+        "skills": [{ "name": "雷属性攻击强化", "level": 1 }]
+      },
+      {
+        "name": "奇怪龙腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "SP计量表保险", "level": 2 },
+          { "name": "不屈", "level": 1 }
+        ]
+      },
+      {
+        "name": "奇怪龙腰甲",
+        "part": "waist",
+        "skills": [{ "name": "麻痹耐性", "level": 2 }]
+      },
+      {
+        "name": "奇怪龙护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "集中", "level": 1 },
+          { "name": "KO术", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "钢龙",
+    "items": [
+      {
+        "name": "钢龙头盔",
+        "part": "head",
+        "skills": [
+          { "name": "钢龙的冻风", "level": 1 },
+          { "name": "装填速度", "level": 1 },
+          { "name": "耳塞", "level": 1 }
+        ]
+      },
+      {
+        "name": "钢龙铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "钢龙的冻风", "level": 1 },
+          { "name": "破坏王", "level": 1 },
+          { "name": "体力增强", "level": 1 }
+        ]
+      },
+      {
+        "name": "钢龙腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "钢龙的冻风", "level": 1 },
+          { "name": "集中", "level": 1 },
+          { "name": "回避距离UP", "level": 1 }
+        ]
+      },
+      {
+        "name": "钢龙腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "钢龙的冻风", "level": 1 },
+          { "name": "弱点特效", "level": 1 },
+          { "name": "风压耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "钢龙护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "钢龙的冻风", "level": 1 },
+          { "name": "轻巧", "level": 1 },
+          { "name": "完美回避强化", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "泡狐龙",
+    "items": [
+      {
+        "name": "泡狐龙头盔",
+        "part": "head",
+        "skills": [{ "name": "水属性攻击强化", "level": 2 }]
+      },
+      {
+        "name": "泡狐龙铠甲",
+        "part": "body",
+        "skills": [{ "name": "泡沫之舞", "level": 2 }]
+      },
+      {
+        "name": "泡狐龙腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "泡沫之舞", "level": 1 },
+          { "name": "死里逃生", "level": 1 }
+        ]
+      },
+      {
+        "name": "泡狐龙腰甲",
+        "part": "waist",
+        "skills": [{ "name": "SP计量表加速【完美回避】", "level": 2 }]
+      },
+      {
+        "name": "泡狐龙护腿",
+        "part": "leg",
+        "skills": [{ "name": "死里逃生", "level": 2 }]
+      }
+    ]
+  },
+  {
+    "suite": "炎王龙",
+    "items": [
+      {
+        "name": "头盔",
+        "part": "head",
+        "skills": [
+          { "name": "炎王龙的爆尘", "level": 1 },
+          { "name": "力量解放", "level": 1 },
+          { "name": "毅力", "level": 1 }
+        ]
+      },
+      {
+        "name": "铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "炎王龙的爆尘", "level": 1 },
+          { "name": "看破", "level": 1 },
+          { "name": "完美回避强化", "level": 1 }
+        ]
+      },
+      {
+        "name": "腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "炎王龙的爆尘", "level": 1 },
+          { "name": "炮术", "level": 1 },
+          { "name": "防御性能", "level": 1 }
+        ]
+      },
+      {
+        "name": "腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "炎王龙的爆尘", "level": 1 },
+          { "name": "强化持续", "level": 1 },
+          { "name": "连击", "level": 1 }
+        ]
+      },
+      {
+        "name": "护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "炎王龙的爆尘", "level": 1 },
+          { "name": "超会心", "level": 1 },
+          { "name": "回避距离UP", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "suite": "万圣节",
+    "items": [
+      {
+        "name": "杰克南瓜头",
+        "part": "head",
+        "skills": [{ "name": "团结力", "level": 1 }]
+      }
+    ]
+  },
+  {
+    "suite": "新年",
+    "items": [
+      {
+        "name": "新年快乐眼镜",
+        "part": "head",
+        "skills": [{ "name": "新年快乐【2024】", "level": 1 }]
+      }
+    ]
+  },
+  {
+    "suite": "春节",
+    "items": [
+      {
+        "name": "舞龙面具",
+        "part": "head",
+        "skills": [{ "name": "超会心", "level": 2 }]
+      }
+    ]
+  }
 ]

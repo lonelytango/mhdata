@@ -352,5 +352,17 @@
     "max-level": 5,
     "type": "属性攻击",
     "description": "降低风压, 增加冰属性攻击百分比"
+  },
+  {
+    "name": "泡沫之舞",
+    "max-level": 3,
+    "type": "回避",
+    "description": "多次回避进入泡沫缠身状态，延长完美回避输入容许时间"
+  },
+  {
+    "name": "炎王龙的爆尘",
+    "max-level": 3,
+    "type": "属性攻击",
+    "description": "爆破容易解除，爆破属性触发几率上升"
   }
 ]
