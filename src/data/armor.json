@@ -1222,6 +1222,120 @@
     ]
   },
   {
+    "name": "伞鸟",
+    "items": [
+      {
+        "name": "伞鸟头盔",
+        "part": "head",
+        "skills": [{ "name": "装填防御", "level": 2 }]
+      },
+      {
+        "name": "伞鸟铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "装填防御", "level": 1 },
+          { "name": "防御性能", "level": 1 }
+        ]
+      },
+      {
+        "name": "伞鸟腕甲",
+        "part": "wrist",
+        "skills": [
+          { "name": "行云流水", "level": 1 },
+          { "name": "强化持续", "level": 1 }
+        ]
+      },
+      {
+        "name": "伞鸟腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "看破", "level": 1 },
+          { "name": "无伤", "level": 1 }
+        ]
+      },
+      {
+        "name": "伞鸟护腿",
+        "part": "leg",
+        "skills": [{ "name": "火属性攻击强化", "level": 2 }]
+      }
+    ]
+  },
+  {
+    "name": "怨虎龙",
+    "items": [
+      {
+        "name": "祸铠【武士盔】",
+        "part": "head",
+        "skills": [{ "name": "鬼火缠身", "level": 2 }]
+      },
+      {
+        "name": "祸铠【胸甲】",
+        "part": "body",
+        "skills": [
+          { "name": "装填速度", "level": 2 },
+          { "name": "爆破异常耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "祸铠【臂甲】",
+        "part": "wrist",
+        "skills": [{ "name": "爆破属性强化", "level": 2 }]
+      },
+      {
+        "name": "祸铠【腰具】",
+        "part": "leg",
+        "skills": [
+          { "name": "爆破异常耐性", "level": 1 },
+          { "name": "鬼火缠身", "level": 1 }
+        ]
+      },
+      {
+        "name": "祸铠【腿甲】",
+        "part": "waist",
+        "skills": [
+          { "name": "爆破属性强化", "level": 1 },
+          { "name": "奇袭", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "金狮子",
+    "items": [
+      {
+        "name": "金色毛发",
+        "part": "head",
+        "skills": [{ "name": "雷耐性", "level": 2 }]
+      },
+      {
+        "name": "金色羽织",
+        "part": "body",
+        "skills": [
+          { "name": "斗气活性", "level": 1 },
+          { "name": "SP计量表加速", "level": 1 }
+        ]
+      },
+      {
+        "name": "金色臂甲",
+        "part": "wrist",
+        "skills": [{ "name": "斗气活性", "level": 2 }]
+      },
+      {
+        "name": "金色带",
+        "part": "waist",
+        "skills": [{ "name": "集中", "level": 2 }]
+      },
+      {
+        "name": "金色下裳",
+        "part": "leg",
+        "skills": [
+          { "name": "怨恨", "level": 1 },
+          { "name": "耐震", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
     "name": "万圣节",
     "items": [
       {

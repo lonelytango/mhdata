@@ -48,11 +48,7 @@
           { "name": "", "level": 1 }
         ]
       }
-    ],
-    "weapon": {
-      "items": [""],
-      "skill": ""
-    }
+    ]
   },
   "weapon": {
     "name": "",
@@ -62,8 +58,7 @@
         "level": 1
       }
     ],
-    "type": "",
-    "name": ""
+    "type": ""
   },
   "weapon_1": {
     "name": "",

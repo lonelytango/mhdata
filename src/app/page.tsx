@@ -33,6 +33,7 @@ const MHCombo = () => {
   const { gear, weapon, allSkills } = data;
 
   const armorHandler = (item: Armor) => {
+    //This is to unselect the armor.
     if (gear.get(item.part)?.name === item.name) {
       gear.delete(item.part);
     } else {
@@ -55,6 +56,7 @@ const MHCombo = () => {
   ) => {
     let { weapon } = data;
     const weaponFullName = suite + weaponName;
+    //This is to unselect the weapon.
     if (weapon?.name === weaponFullName) {
       weapon = undefined;
     } else {

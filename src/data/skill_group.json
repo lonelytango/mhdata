@@ -79,12 +79,6 @@
         "max-level": 5,
         "type": "攻击",
         "description": "收起武器和变换武器形态速度上升"
-      },
-      {
-        "name": "炮术",
-        "max-level": 5,
-        "type": "攻击",
-        "description": "铳枪炮击, 龙击炮, 充能斧瓶攻击, 撤甲榴弹伤害增加, 铳枪炮弹和充能斧头瓶增加"
       }
     ]
   },
@@ -140,16 +134,10 @@
         "description": "强化麻痹属性攻击力"
       },
       {
-        "name": "钢龙的冻风",
+        "name": "爆破属性强化",
         "max-level": 5,
         "type": "属性攻击",
-        "description": "降低风压, 增加冰属性攻击百分比"
-      },
-      {
-        "name": "炎王龙的爆尘",
-        "max-level": 3,
-        "type": "属性攻击",
-        "description": "爆破容易解除，爆破属性触发几率上升"
+        "description": "武器爆破累积值增加"
       }
     ]
   },
@@ -167,23 +155,59 @@
         "max-level": 5,
         "type": "状态攻击",
         "description": "从魔物背后攻击, 异常状态触发几率上升"
+      },
+      {
+        "name": "鬼火缠身",
+        "max-level": 3,
+        "type": "状态攻击",
+        "description": "发动鬼火Lv1效果, 增加攻击力防御力"
+      },
+      {
+        "name": "钢龙的冻风",
+        "max-level": 5,
+        "type": "状态攻击",
+        "description": "降低风压, 增加冰属性攻击百分比"
+      },
+      {
+        "name": "炎王龙的爆尘",
+        "max-level": 3,
+        "type": "状态攻击",
+        "description": "爆破容易解除，爆破属性触发几率上升"
+      },
+      {
+        "name": "斗气活性",
+        "max-level": 5,
+        "type": "状态攻击",
+        "description": "SP全满时, 20秒内增加伤害"
       }
     ]
   },
   {
-    "type": "弩枪攻击",
+    "type": "枪炮攻击",
     "data": [
       {
         "name": "后座力减轻",
         "max-level": 3,
-        "type": "弩枪攻击",
+        "type": "枪炮攻击",
         "description": "减轻弩枪后座力"
       },
       {
         "name": "装填速度",
         "max-level": 3,
-        "type": "弩枪攻击",
+        "type": "枪炮攻击",
         "description": "降低弩枪装填时间"
+      },
+      {
+        "name": "装填防御",
+        "max-level": 3,
+        "type": "枪炮攻击",
+        "description": "成功防御魔物攻击, 充能斧, 铳枪, 重弩枪"
+      },
+      {
+        "name": "炮术",
+        "max-level": 5,
+        "type": "枪炮攻击",
+        "description": "铳枪炮击, 龙击炮, 充能斧瓶攻击, 撤甲榴弹伤害增加, 铳枪炮弹和充能斧头瓶增加"
       }
     ]
   },
@@ -377,6 +401,12 @@
         "max-level": 5,
         "type": "状态防御",
         "description": "强化麻痹属性防御力"
+      },
+      {
+        "name": "爆破异常耐性",
+        "max-level": 5,
+        "type": "状态防御",
+        "description": "遭到爆破属性攻击命中后, 有几率不会进入爆破异常状态"
       }
     ]
   },
