@@ -1336,6 +1336,45 @@
     ]
   },
   {
+    "name": "浮眠龙",
+    "items": [
+      {
+        "name": "头盔",
+        "part": "head",
+        "skills": [{ "name": "觉醒一击", "level": 2 }]
+      },
+      {
+        "name": "铠甲",
+        "part": "body",
+        "skills": [
+          { "name": "集中", "level": 1 },
+          { "name": "睡眠耐性", "level": 1 }
+        ]
+      },
+      {
+        "name": "腕甲",
+        "part": "wrist",
+        "skills": [{ "name": "睡眠攻击强化", "level": 2 }]
+      },
+      {
+        "name": "腰甲",
+        "part": "waist",
+        "skills": [
+          { "name": "奇袭", "level": 1 },
+          { "name": "回避距离UP", "level": 1 }
+        ]
+      },
+      {
+        "name": "护腿",
+        "part": "leg",
+        "skills": [
+          { "name": "觉醒一击", "level": 1 },
+          { "name": "奇袭", "level": 1 }
+        ]
+      }
+    ]
+  },
+  {
     "name": "万圣节",
     "items": [
       {
